@@ -1,3 +1,77 @@
+---
+# try also 'default' to start simple
+theme: default
+# random image from a curated Unsplash collection by Anthony
+# like them? see https://unsplash.com/collections/94734566/slidev
+# apply any windi css classes to the current slide
+class: 'text-center'
+# https://sli.dev/custom/highlighters.html
+highlighter: shiki
+# show line numbers in code blocks
+lineNumbers: false
+# some information about the slides, markdown enabled
+info: |
+  ## Slidev Starter Template
+  Presentation slides for developers.
+
+  Learn more at [Sli.dev](https://sli.dev)
+# persist drawings in exports and build
+drawings:
+  persist: false
+---
+
+# KodaDot: the Metahour
+
+Brief history of KodaDot and beyond
+
+
+
+<!--
+The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+-->
+
+---
+
+
+# Who we are?
+
+<div grid="~ cols-2 gap-2" m="t-2">
+
+
+<div>
+<img border="rounded" style="border-radius: 50%;" width="300" src="https://pbs.twimg.com/profile_images/1490359385108930563/tWaIhzMH_400x400.jpg">
+
+- 📝 **vikiival** - magick
+  - Simplier one, less features
+  - bit slower reindexing time
+  - backbone of KodaDot's RMRK markteplace
+  - so far *stable*
+  - no ability for external calls
+  - aggregations out of the box
+  - auto-balanced for more nodes
+</div>
+
+<div>
+<img border="rounded" style="border-radius: 50%;" width="300" src="https://pbs.twimg.com/profile_images/1562000851174133762/3BxCwuL0_400x400.png">
+
+- 🦑 **yangwao** - rubick
+  - More complex, higher flexibility
+  - super fast reindexing (~ 2days)
+  - can be used for external calls (fetch metadata from IPFS)
+  - *alpha quality software*
+  - can write custom queries through resolvers
+  - europe based
+  
+</div>
+
+</div>
+
+<br>
+<br>
+
+---
+
+
 - desired talk length 25 min
 - participants 
 	- EXO, Pendulum, SubSquid, RMRK, Koda, Bifrost, Basilisk, Astar, MoonBeans, Phala Network, 
@@ -47,8 +121,6 @@ Yangwao - co-founder, radical veteran in crypto and open source
 - standardizing program for paying out bounties to developers
 - setting up payout bot in repository - crappy but worked!
 - crossing 80+ contributors to KodaDot, hitting 250+ pull request per month 
-
-![[Pasted image 20220914113812.png]]
 
 - creating code review guild to distribute and offload core team
 - setting up experimental Q&A guild to help us going through the stuff
