@@ -24,16 +24,10 @@ drawings:
 
 1+ year recap of KodaDot ecosystem of 80+ contributors
 
-
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
 ---
 
 
-# Who we are?
+# Who are we?
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
@@ -57,7 +51,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <h2>yangwao</h2>
 
 - co-founder
-- radical veteran in crypto
+- a radical veteran in crypto
 - building public goods and open source
   
 </div>
@@ -69,7 +63,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# How we got to the ecosystem (2019) ?
+# How we got to the ecosystem (2019)?
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
@@ -101,7 +95,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <div>
 
-- We were looking into NFT ecosystem for creative leverage
+- We were looking into the NFT ecosystem for creative leverage
 
 - Kusama native NFTs were introduced (RMRK)
 
@@ -129,9 +123,9 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 - Added SubSocial for commenting
 
-- Wonky UI -- craiglist's pit
+- Wonky UI -- craigslist's pit
 
-- lot of features, but few has worked well
+- a lot of features, but few have worked well
 
 - ever breaking 🤷‍♂️  constant software evolution 
 
@@ -146,12 +140,12 @@ The last comment block of each slide will be treated as slide notes. It will be 
 # Craiglist's pit
 
 <div grid="~ cols-2 gap-2" m="t-2">
-	<div>
-		<img border="rounded" src="/rmrk-create.png">
-	</div>
-	<div>
-		<img border="rounded" src="/rmrk-detail.png">
-	</div>
+  <div>
+    <img border="rounded" src="/rmrk-create.png">
+  </div>
+  <div>
+    <img border="rounded" src="/rmrk-detail.png">
+  </div>
 </div>
 
 ---
@@ -161,11 +155,11 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
-- huge traction with translation contributors, approx 16 languages
+- tremendous traction with translation contributors, approx 16 languages
 
 - changed Textile to SubQuery -> improved loading times a lot for users
 
-- deploy previews for anyone who wanted to contribute & help
+- deploy previews for anyone who wants to contribute & help
 
 - issued first bounties for translations
 
@@ -174,9 +168,9 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - first $50k paid out for merged pull requests to contributors
 
 </div>
-	<div>
-		<img border="rounded" src="/translation.png">
-	</div>
+  <div>
+    <img border="rounded" src="/translation.png">
+  </div>
 </div>
 
 ---
@@ -186,50 +180,50 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
-- participating in Arweave cohort hackhathon
-	- among finalists with PermaFrost project for metadata hosting
+- participating in the Arweave cohort hackathon
+  - among finalists with the PermaFrost project for metadata hosting
 
-- raised first money in company
+- raised the first money in the company
 
 - cross-chain NFT strategy -- Kodadot 
 
 - experimental NFT infrastructure -- Metaprime.network
 
 </div>
-	<div>
-		<img border="rounded" src="/metaprime.png">
-	</div>
+  <div>
+    <img border="rounded" src="/metaprime.png">
+  </div>
 </div>
 
 ---
 
-# Speeding up bounty process
+# Speeding up the bounty process
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
 - standardizing program for paying out bounties to developers
 
-- setting up payout bot in repository - crappy but worked!
+- setting up a payout bot in the repository - crappy, but it worked!
 
 - crossing 80+ contributors to KodaDot's repositories
 
-- hitting 250+ pull request per month 
+- hitting 250+ pull requests per month 
 
-- over 300+ stars and 200+ forks of repository
+- over 300+ stars and 200+ forks of the repository
 
 
 </div>
-	<div>
-		<img border="rounded" src="/new-issues.png">
-		<img border="rounded" src="/open-issues.png">
-	</div>
+  <div>
+    <img border="rounded" src="/new-issues.png">
+    <img border="rounded" src="/open-issues.png">
+  </div>
 </div>
 
 <!--
-- thanks to that we are among most popular
+- thanks to that, we are among the most popular
 - open source NFT frontend, right after DotApps
-- substrate repository on Polkadot right after Acala,Astar & Moonbeam 
+- substrate repository on Polkadot right after Acala, Astar & Moonbeam 
 -->
 
 ---
@@ -241,17 +235,17 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <div>
 
 - trusted contributors 
-	- could do payout for others pull-requests
-	- merge things to `main` branch
+  - could do payout for others pull-requests
+  - merge things to the `main` branch
 
 - created code review guild to distribute and offload core team
 
-- setting up experimental Q&A guild to help us going through the stuff
+- setting up an experimental Q&A guild to help us go through the stuff
 
 </div>
-	<div>
-		<img border="rounded" src="/pay-other.jpg">
-	</div>
+  <div>
+    <img border="rounded" src="/pay-other.jpg">
+  </div>
 </div>
 
 ---
@@ -274,9 +268,9 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - Acala EVM+
 
 </div>
-	<div>
-		<img border="rounded" src="/cross-chain.png">
-	</div>
+  <div>
+    <img border="rounded" src="/cross-chain.png">
+  </div>
 </div>
 
 ---
@@ -287,17 +281,17 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <div>
 
 - being your single asset interface for NFTs on Polkadot & Kusama
-	- abstract technology from user 
-	- which parachain I'm at and does it matter?
-		- do necessary steps on behalf of user on background (token swaps, XCM transfers)
-	- simplification of token transfers
-	- safety of transfers
+  - abstract technology from a user 
+  - which parachain am I at, and does it matter?
+    - do necessary steps on behalf of the user in the background (token swaps, XCM transfers)
+  - simplification of token transfers
+  - the safety of transfers
 - brewing protocol compatibility between various NFTs standards called Reactive NFTs 
 
 </div>
-	<div>
-		<img border="rounded" src="/new-landing.png">
-	</div>
+  <div>
+    <img border="rounded" src="/new-landing.png">
+  </div>
 </div>
 
 ---
@@ -320,9 +314,9 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - https://docs.kodadot.xyz/reactive-nfts
 
 </div>
-	<div>
-		<img border="rounded" width="500" src="/reactive-spiral.gif">
-	</div>
+  <div>
+    <img border="rounded" width="500" src="/reactive-spiral.gif">
+  </div>
 </div>
 
 ---
@@ -335,7 +329,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <h3>and you can do too with us</h3>
 
-- ✅ extremely fast multi-chain search (wink SubSquid)
+- ✅ high-speed multi-chain search (wink SubSquid)
 
 - abstracting NFTs from user experience
 
@@ -343,15 +337,15 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 - zkPrompts marketplace
 
-- on-chain art without need for off-chain code
+- on-chain art without the need for off-chain code
 
 - Graph NFTs 
 
 
 </div>
-	<div>
-		<img border="rounded" src="/search.png">
-	</div>
+  <div>
+    <img border="rounded" src="/search.png">
+  </div>
 </div>
 
 ---
@@ -374,39 +368,39 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - helping to shape our API/SDK for games
 
 </div>
-	<div>
-		<img border="rounded" src="/anime-music.gif">
-	</div>
+  <div>
+    <img border="rounded" src="/anime-music.gif">
+  </div>
 </div>
 
 ---
 
-# SubWork -- your best web3 retreat in mountains
+# SubWork -- your best web3 retreat in the mountains
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
 
-- physical space outside from city to laser focus on your project
+- physical space outside of the city to laser focus on your project
 
-- based in Bled, Slovenia, on footstep of Julian Alps
+- based in Bled, Slovenia, in the footstep of the Julian Alps
 
-- rated among top10 beautiful places in the Europe
+- rated among top10 beautiful places in Europe
 
 - up & running
 
-- we've already had 20+ visitors over summer '22
+- we've already had 20+ visitors over the summer of '22
 
 - opening ceremony soon
 
-- go to the https://subwork.xyz for more
+- go to https://subwork.xyz for more
 
 - https://twitter.com/subworkBled
 
 </div>
-	<div>
-		<img border="rounded" src="/subwork.jpeg">
-	</div>
+  <div>
+    <img border="rounded" src="/subwork.jpeg">
+  </div>
 </div>
 
 ---
@@ -426,7 +420,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 ---
 
 ### KodaDot: past, present, future.
-- 1 year recap of KodaDot ecosystem of 80+ contributors
+- 1-year recap of KodaDot ecosystem of 80+ contributors
 
 #### Introduction 
 Viki - co-founder, technical wizard of bleeding edge implementations in KodaDot 
@@ -457,7 +451,7 @@ Yangwao - co-founder, radical veteran in crypto and open source
 - deploy previews for anyone who wanted to contribute & help
 - bounties system for code contributors
 - participating in Arweave cohort hackhathon
-	- among finalists with PermaFrost project for metadata hosting
+  - among finalists with PermaFrost project for metadata hosting
 - raised first money in company
 - cross-chain NFT strategy -- Kodadot 
 - experimental NFT infrastructure -- Metaprime.network
@@ -484,8 +478,8 @@ Yangwao - co-founder, radical veteran in crypto and open source
 ---
 ### upgrading bounty process to next level
 - trusted contributors 
-	- could do payout for others pull-requests
-	- merge things to `main` branch
+  - could do payout for others pull-requests
+  - merge things to `main` branch
 - created code review guild to distribute and offload core team
 - setting up experimental Q&A guild to help us going through the stuff
 
@@ -501,11 +495,11 @@ Yangwao - co-founder, radical veteran in crypto and open source
 ---
 ### friendly user interface for managing your NFTs
 - being your single asset interface for NFTs on Polkadot & Kusama
-	- abstract technology from user 
-	- which parachain I'm at and does it matter?
-		- do necessary steps on behalf of user on background (token swaps, XCM transfers)
-	- simplification of token transfers
-	- safety of transfers
+  - abstract technology from user 
+  - which parachain I'm at and does it matter?
+    - do necessary steps on behalf of user on background (token swaps, XCM transfers)
+  - simplification of token transfers
+  - safety of transfers
 - brewing protocol compatibility between various NFTs standards called Reactive NFTs 
 
 ---
@@ -525,12 +519,12 @@ Yangwao - co-founder, radical veteran in crypto and open source
 ---
 ### Experimental landscape
 - we are heads down trying new things and you can do too with us
-	- ✅ extremely fast multi-chain search (wink SubSquid)
-	- abstracting NFTs from user experience
-	- generative art minting
-	- zkPrompts marketplace
-	- on-chain art without need for off-chain code
-	- graph NFTs 
+  - ✅ extremely fast multi-chain search (wink SubSquid)
+  - abstracting NFTs from user experience
+  - generative art minting
+  - zkPrompts marketplace
+  - on-chain art without need for off-chain code
+  - graph NFTs 
 
 ---
 ### Your contribution matters 
