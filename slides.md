@@ -375,7 +375,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 </div>
 	<div>
-		<img border="rounded" src="/metaprime.png">
+		<img border="rounded" src="/anime-music.gif">
 	</div>
 </div>
 
