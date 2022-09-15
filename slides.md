@@ -69,18 +69,92 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# How we got to the ecosystem ?
+# How we got to the ecosystem (2019) ?
 
-- how we got to the ecosystem 
-	- SubKey in VueJS (PoC)
-	- first grant from web3foundation
-- reimplementation of DotApps from React into Vuejs
-- winning hackathons in Ethereum & Polkadot ecosystem in 2019 - 2020 together
+<div grid="~ cols-2 gap-2" m="t-2">
 
 
+<div>
+
+- SubKey in VueJS (Proof-of-concept)
+
+- First grant from Web3Foundation
+
+- Reimplementation of DotApps from React into VueJS
+
+- Winning hackathons in Ethereum & Polkadot ecosystem in 2019 - 2020 together
+
+</div>
+<div>
+
+  <img border="rounded" src="https://miro.medium.com/max/1400/1*bx_emZ-Wn0IKKelK-fVaFQ.png">
+</div>
+
+</div>
 
 ---
 
+# RMRK and first pivot (Nov 2020)
+
+<div grid="~ cols-2 gap-2" m="t-2">
+
+
+<div>
+
+- We were looking into NFT ecosystem for creative leverage
+
+- Kusama native NFTs were introduced (RMRK)
+
+- First implementation of RMRK v0.0.1
+
+- Our DotApps was rebranded to KodaDot
+
+</div>
+<div>
+  <img border="rounded" src="/public/rmrk-reader.jpeg">
+</div>
+
+</div>
+
+---
+
+# Did we have any struggles? (hint: yes)
+
+<div grid="~ cols-2 gap-2" m="t-2">
+
+
+<div>
+
+- Implementation of distributed & decentralized database (Textile/ThreadDB)
+
+- Added SubSocial for commenting
+
+- Wonky UI -- craiglist's pit
+
+- lot of features, but few has worked well
+
+- ever breaking 🤷‍♂️  constant software evolution 
+
+</div>
+<div>
+  <img border="rounded" src="/public/rmrk-profile.jpeg">
+</div>
+</div>
+
+---
+
+# Craiglist's pit
+
+<div grid="~ cols-2 gap-2" m="t-2">
+	<div>
+		<img border="rounded" src="/public/rmrk-create.png">
+	</div>
+	<div>
+		<img border="rounded" src="/public/rmrk-detail.png">
+	</div>
+</div>
+
+---
 
 - desired talk length 25 min
 - participants 
@@ -96,8 +170,8 @@ Yangwao - co-founder, radical veteran in crypto and open source
 
 ### Brief history
 - how we got to the ecosystem 
-	- SubKey in VueJS (PoC)
-	- first grant from web3foundation
+- SubKey in VueJS (PoC)
+- first grant from Web3Foundation
 - reimplementation of DotApps from React into Vuejs
 - winning hackathons in Ethereum & Polkadot ecosystem in 2019 - 2020 together
 
@@ -128,7 +202,7 @@ Yangwao - co-founder, radical veteran in crypto and open source
 #### Bounties program
 - issued first bounties for translations
 - first bounties for external contributors
-![[./public/Pasted image 20220914113643.png]]
+
 
 - first $50k paid out for merged pull requests
 
@@ -140,10 +214,10 @@ Yangwao - co-founder, radical veteran in crypto and open source
 - hitting 250+ pull request per month 
 - over 300+ stars and 200+ forks of repository
 - thanks to that we are among most popular
-	- open source NFT frontend, right after DotApps
-	- substrate repository on Polkadot right after Acala,Astar & Moonbeam 
+- open source NFT frontend, right after DotApps
+- substrate repository on Polkadot right after Acala,Astar & Moonbeam 
 
-![[./public/Pasted image 20220914113812.png]]
+
 
 ---
 ### upgrading bounty process to next level
