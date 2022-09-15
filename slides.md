@@ -111,7 +111,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 </div>
 <div>
-  <img border="rounded" src="/public/rmrk-reader.jpeg">
+  <img border="rounded" src="/rmrk-reader.jpeg">
 </div>
 
 </div>
@@ -137,7 +137,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 </div>
 <div>
-  <img border="rounded" src="/public/rmrk-profile.jpeg">
+  <img border="rounded" src="/rmrk-profile.jpeg">
 </div>
 </div>
 
@@ -147,10 +147,10 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <div grid="~ cols-2 gap-2" m="t-2">
 	<div>
-		<img border="rounded" src="/public/rmrk-create.png">
+		<img border="rounded" src="/rmrk-create.png">
 	</div>
 	<div>
-		<img border="rounded" src="/public/rmrk-detail.png">
+		<img border="rounded" src="/rmrk-detail.png">
 	</div>
 </div>
 
@@ -175,7 +175,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 </div>
 	<div>
-		<img border="rounded" src="/public/translation.png">
+		<img border="rounded" src="/translation.png">
 	</div>
 </div>
 
@@ -197,7 +197,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 </div>
 	<div>
-		<img border="rounded" src="/public/metaprime.png">
+		<img border="rounded" src="/metaprime.png">
 	</div>
 </div>
 
@@ -209,19 +209,28 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <div>
 
 - standardizing program for paying out bounties to developers
+
 - setting up payout bot in repository - crappy but worked!
+
 - crossing 80+ contributors to KodaDot's repositories
+
 - hitting 250+ pull request per month 
+
 - over 300+ stars and 200+ forks of repository
-- thanks to that we are among most popular
-- open source NFT frontend, right after DotApps
-- substrate repository on Polkadot right after Acala,Astar & Moonbeam 
+
 
 </div>
 	<div>
-		<img border="rounded" src="/public/metaprime.png">
+		<img border="rounded" src="/new-issues.png">
+		<img border="rounded" src="/open-issues.png">
 	</div>
 </div>
+
+<!--
+- thanks to that we are among most popular
+- open source NFT frontend, right after DotApps
+- substrate repository on Polkadot right after Acala,Astar & Moonbeam 
+-->
 
 ---
 
@@ -241,7 +250,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 </div>
 	<div>
-		<img border="rounded" src="/public/pay-other.jpg">
+		<img border="rounded" src="/pay-other.jpg">
 	</div>
 </div>
 
@@ -263,7 +272,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 </div>
 	<div>
-		<img border="rounded" src="/public/metaprime.png">
+		<img border="rounded" src="/metaprime.png">
 	</div>
 </div>
 
@@ -284,7 +293,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 </div>
 	<div>
-		<img border="rounded" src="/public/metaprime.png">
+		<img border="rounded" src="/new-landing.png">
 	</div>
 </div>
 
@@ -309,30 +318,36 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 </div>
 	<div>
-		<img border="rounded" src="/public/metaprime.png">
+		<img border="rounded" width="500" src="/reactive-spiral.gif">
 	</div>
 </div>
 
 ---
 
-# Experimental landscape
+# We are heads down trying new things
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
 
-- we are heads down trying new things and you can do too with us
-	- ✅ extremely fast multi-chain search (wink SubSquid)
-	- abstracting NFTs from user experience
-	- generative art minting
-	- zkPrompts marketplace
-	- on-chain art without need for off-chain code
-	- Graph NFTs 
+<h3>and you can do too with us</h3>
+
+- ✅ extremely fast multi-chain search (wink SubSquid)
+
+- abstracting NFTs from user experience
+
+- generative art minting
+
+- zkPrompts marketplace
+
+- on-chain art without need for off-chain code
+
+- Graph NFTs 
 
 
 </div>
 	<div>
-		<img border="rounded" src="/public/metaprime.png">
+		<img border="rounded" src="/search.png">
 	</div>
 </div>
 
@@ -345,15 +360,19 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <div>
 
  
-we are looking forward for more collaborators on
+<h3>We are looking forward for more collaborators on</h3>
+
 - music NFTs
+
 - GLSL/shaders
+
 - on-chain art grifters
+
 - helping to shape our API/SDK for games
 
 </div>
 	<div>
-		<img border="rounded" src="/public/metaprime.png">
+		<img border="rounded" src="/metaprime.png">
 	</div>
 </div>
 
@@ -366,17 +385,24 @@ we are looking forward for more collaborators on
 
 
 - physical space outside from city to laser focus on your project
+
 - based in Bled, Slovenia, on footstep of Julian Alps
+
 - rated among top10 beautiful places in the Europe
+
 - up & running
+
 - we've already had 20+ visitors over summer '22
+
 - opening ceremony soon
+
 - go to the https://subwork.xyz for more
+
 - https://twitter.com/subworkBled
 
 </div>
 	<div>
-		<img border="rounded" src="/public/subwork.jpeg">
+		<img border="rounded" src="/subwork.jpeg">
 	</div>
 </div>
 
