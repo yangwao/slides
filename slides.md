@@ -261,18 +261,21 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
-- participating in Arweave cohort hackhathon
-	- among finalists with PermaFrost project for metadata hosting
+- multi chain compatibility 
 
-- raised first money in company
+- RMRKv1 & RMRKv2
 
-- cross-chain NFT strategy -- Kodadot 
+- Basilisk NFT marketplace
 
-- experimental NFT infrastructure -- Metaprime.network
+- MoonRiver & MoonBeam 
+
+- Astar WASM & RMRK-runtime
+
+- Acala EVM+
 
 </div>
 	<div>
-		<img border="rounded" src="/metaprime.png">
+		<img border="rounded" src="/cross-chain.png">
 	</div>
 </div>
 
