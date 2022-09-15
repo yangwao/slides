@@ -20,7 +20,7 @@ drawings:
   persist: false
 ---
 
-# KodaDot: the Metahour
+# KodaDot: past, present, future.
 
 1+ year recap of KodaDot ecosystem of 80+ contributors
 
@@ -39,28 +39,26 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 
 <div>
-<img border="rounded" style="border-radius: 50%;" width="300" src="https://pbs.twimg.com/profile_images/1490359385108930563/tWaIhzMH_400x400.jpg">
 
-- 📝 **vikiival** - magick
-  - Simplier one, less features
-  - bit slower reindexing time
-  - backbone of KodaDot's RMRK markteplace
-  - so far *stable*
-  - no ability for external calls
-  - aggregations out of the box
-  - auto-balanced for more nodes
+<img border="rounded" style="border-radius: 50%;" width="300" src="https://pbs.twimg.com/profile_images/1490359385108930563/tWaIhzMH_400x400.jpg">
+<br>
+
+<h2>vikiival</h2>
+
+- co-founder
+- technical wizard
+- bleeding edge implementations in KodaDot 
+
 </div>
 
 <div>
 <img border="rounded" style="border-radius: 50%;" width="300" src="https://pbs.twimg.com/profile_images/1562000851174133762/3BxCwuL0_400x400.png">
 
-- 🦑 **yangwao** - rubick
-  - More complex, higher flexibility
-  - super fast reindexing (~ 2days)
-  - can be used for external calls (fetch metadata from IPFS)
-  - *alpha quality software*
-  - can write custom queries through resolvers
-  - europe based
+<h2>yangwao</h2>
+
+- co-founder
+- radical veteran in crypto
+- building public goods and open source
   
 </div>
 
@@ -70,6 +68,24 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <br>
 
 ---
+
+# How we got to the ecosystem ?
+
+- how we got to the ecosystem 
+	- SubKey in VueJS (PoC)
+	- first grant from web3foundation
+- reimplementation of DotApps from React into Vuejs
+- winning hackathons in Ethereum & Polkadot ecosystem in 2019 - 2020 together
+
+
+
+---
+
+
+- desired talk length 25 min
+- participants 
+	- EXO, Pendulum, SubSquid, RMRK, Koda, Bifrost, Basilisk, Astar, MoonBeans, Phala Network, Dia
+
 
 ### KodaDot: past, present, future.
 - 1 year recap of KodaDot ecosystem of 80+ contributors
@@ -140,12 +156,12 @@ Yangwao - co-founder, radical veteran in crypto and open source
 ---
 ### cross chain strategy of KodaDot
 - multi chain compatibility 
-	- including support for 
-		- RMRKv1 & RMRKv2
-		- Basilisk NFT marketplace
-		- MoonRiver & MoonBeam 
-		- Astar WASM & RMRK-runtime
-		- Acala EVM+
+- including support for 
+- RMRKv1 & RMRKv2
+- Basilisk NFT marketplace
+- MoonRiver & MoonBeam 
+- Astar WASM & RMRK-runtime
+- Acala EVM+
 ---
 ### friendly user interface for managing your NFTs
 - being your single asset interface for NFTs on Polkadot & Kusama
