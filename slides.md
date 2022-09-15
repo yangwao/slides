@@ -22,7 +22,7 @@ drawings:
 
 # KodaDot: the Metahour
 
-Brief history of KodaDot and beyond
+1+ year recap of KodaDot ecosystem of 80+ contributors
 
 
 
@@ -71,12 +71,6 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-
-- desired talk length 25 min
-- participants 
-	- EXO, Pendulum, SubSquid, RMRK, Koda, Bifrost, Basilisk, Astar, MoonBeans, Phala Network, Dia
-
-
 ### KodaDot: past, present, future.
 - 1 year recap of KodaDot ecosystem of 80+ contributors
 
@@ -101,7 +95,7 @@ Yangwao - co-founder, radical veteran in crypto and open source
 - implemented SubSocial for commenting
 - wonky UI -- craiglist's pit
 - lot of features, but few has worked well
-- ever breaking 🤷‍♂️  constat software evolution 
+- ever breaking 🤷‍♂️  constant software evolution 
 
 ### Winning mentality
 - huge traction with translation contributors, approx 16 languages
@@ -118,16 +112,22 @@ Yangwao - co-founder, radical veteran in crypto and open source
 #### Bounties program
 - issued first bounties for translations
 - first bounties for external contributors
-![[Pasted image 20220914113643.png]]
+![[./public/Pasted image 20220914113643.png]]
 
 - first $50k paid out for merged pull requests
 
 ---
+### Speeding up bounty process
 - standardizing program for paying out bounties to developers
 - setting up payout bot in repository - crappy but worked!
-- crossing 80+ contributors to KodaDot, hitting 250+ pull request per month 
+- crossing 80+ contributors to KodaDot
+- hitting 250+ pull request per month 
+- over 300+ stars and 200+ forks of repository
+- thanks to that we are among most popular
+	- open source NFT frontend, right after DotApps
+	- substrate repository on Polkadot right after Acala,Astar & Moonbeam 
 
-![[Pasted image 20220914113812.png]]
+![[./public/Pasted image 20220914113812.png]]
 
 ---
 ### upgrading bounty process to next level
@@ -147,7 +147,7 @@ Yangwao - co-founder, radical veteran in crypto and open source
 		- Astar WASM & RMRK-runtime
 		- Acala EVM+
 ---
-### Friendly user interface for managing your NFTs
+### friendly user interface for managing your NFTs
 - being your single asset interface for NFTs on Polkadot & Kusama
 	- abstract technology from user 
 	- which parachain I'm at and does it matter?
@@ -157,7 +157,7 @@ Yangwao - co-founder, radical veteran in crypto and open source
 - brewing protocol compatibility between various NFTs standards called Reactive NFTs 
 
 ---
-### RNFTs - Reactive NFTs (codename)
+### rNFTs - Reactive NFTs (codename)
 - make offers & royalties 
 - collab
 - reactive actions 
@@ -172,9 +172,9 @@ Yangwao - co-founder, radical veteran in crypto and open source
 
 ---
 ### Experimental landscape
-- we are heads down trying new things and you can too with us
+- we are heads down trying new things and you can do too with us
+	- ✅ extremely fast multi-chain search (wink SubSquid)
 	- abstracting NFTs from user experience
-	- extremly fast multi-chain search
 	- generative art minting
 	- zkPrompts marketplace
 	- on-chain art without need for off-chain code
@@ -197,3 +197,14 @@ we are looking forward for more collaborators on
 - we've already had 20+ visitors over summer '22
 - opening ceremony soon
 - go to the https://subwork.xyz for more
+- https://twitter.com/subworkBled
+---
+### Enjoy party
+- Thanks for having us
+- Thank you for your conribution
+- You can find us  
+  - https://dsc.gg/kodadot
+  - https://twitter.com/kodadot
+  - https://twitter.com/vikiival
+  - https://twitter.com/yangwao
+  
