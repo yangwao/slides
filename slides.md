@@ -156,11 +156,6 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-- desired talk length 25 min
-- participants 
-	- EXO, Pendulum, SubSquid, RMRK, Koda, Bifrost, Basilisk, Astar, MoonBeans, Phala Network, Dia
-
-
 ### KodaDot: past, present, future.
 - 1 year recap of KodaDot ecosystem of 80+ contributors
 
@@ -204,25 +199,23 @@ Yangwao - co-founder, radical veteran in crypto and open source
 - first bounties for external contributors
 
 
-- first $50k paid out for merged pull requests
+- first $50k paid out for merged pull requests to contributors
 
 ---
 ### Speeding up bounty process
 - standardizing program for paying out bounties to developers
 - setting up payout bot in repository - crappy but worked!
-- crossing 80+ contributors to KodaDot
+- crossing 80+ contributors to KodaDot's repositories
 - hitting 250+ pull request per month 
 - over 300+ stars and 200+ forks of repository
 - thanks to that we are among most popular
 - open source NFT frontend, right after DotApps
 - substrate repository on Polkadot right after Acala,Astar & Moonbeam 
 
-
-
 ---
 ### upgrading bounty process to next level
 - trusted contributors 
-	- could do payout for others
+	- could do payout for others pull-requests
 	- merge things to `main` branch
 - created code review guild to distribute and offload core team
 - setting up experimental Q&A guild to help us going through the stuff
