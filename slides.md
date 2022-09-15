@@ -82,11 +82,6 @@ The last comment block of each slide will be treated as slide notes. It will be 
 ---
 
 
-- desired talk length 25 min
-- participants 
-	- EXO, Pendulum, SubSquid, RMRK, Koda, Bifrost, Basilisk, Astar, MoonBeans, Phala Network, Dia
-
-
 ### KodaDot: past, present, future.
 - 1 year recap of KodaDot ecosystem of 80+ contributors
 
