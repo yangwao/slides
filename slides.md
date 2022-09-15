@@ -156,6 +156,246 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
+# How to win some first contributors?
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+- huge traction with translation contributors, approx 16 languages
+
+- changed Textile to SubQuery -> improved loading times a lot for users
+
+- deploy previews for anyone who wanted to contribute & help
+
+- issued first bounties for translations
+
+- first bounties for external contributors
+
+- first $50k paid out for merged pull requests to contributors
+
+</div>
+	<div>
+		<img border="rounded" src="/public/translation.png">
+	</div>
+</div>
+
+---
+
+# Setting up the winning mentality (Q3 2021)
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+- participating in Arweave cohort hackhathon
+	- among finalists with PermaFrost project for metadata hosting
+
+- raised first money in company
+
+- cross-chain NFT strategy -- Kodadot 
+
+- experimental NFT infrastructure -- Metaprime.network
+
+</div>
+	<div>
+		<img border="rounded" src="/public/metaprime.png">
+	</div>
+</div>
+
+---
+
+# Speeding up bounty process
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+- standardizing program for paying out bounties to developers
+- setting up payout bot in repository - crappy but worked!
+- crossing 80+ contributors to KodaDot's repositories
+- hitting 250+ pull request per month 
+- over 300+ stars and 200+ forks of repository
+- thanks to that we are among most popular
+- open source NFT frontend, right after DotApps
+- substrate repository on Polkadot right after Acala,Astar & Moonbeam 
+
+</div>
+	<div>
+		<img border="rounded" src="/public/metaprime.png">
+	</div>
+</div>
+
+---
+
+
+# Upgrading bounty process to next level
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+- trusted contributors 
+	- could do payout for others pull-requests
+	- merge things to `main` branch
+
+- created code review guild to distribute and offload core team
+
+- setting up experimental Q&A guild to help us going through the stuff
+
+</div>
+	<div>
+		<img border="rounded" src="/public/pay-other.jpg">
+	</div>
+</div>
+
+---
+
+# Cross-chain strategy of KodaDot
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+- participating in Arweave cohort hackhathon
+	- among finalists with PermaFrost project for metadata hosting
+
+- raised first money in company
+
+- cross-chain NFT strategy -- Kodadot 
+
+- experimental NFT infrastructure -- Metaprime.network
+
+</div>
+	<div>
+		<img border="rounded" src="/public/metaprime.png">
+	</div>
+</div>
+
+---
+
+# Friendly user interface for managing your NFTs
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+- being your single asset interface for NFTs on Polkadot & Kusama
+	- abstract technology from user 
+	- which parachain I'm at and does it matter?
+		- do necessary steps on behalf of user on background (token swaps, XCM transfers)
+	- simplification of token transfers
+	- safety of transfers
+- brewing protocol compatibility between various NFTs standards called Reactive NFTs 
+
+</div>
+	<div>
+		<img border="rounded" src="/public/metaprime.png">
+	</div>
+</div>
+
+---
+
+# rNFTs - Reactive NFTs (codename)
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+- make offers & royalties 
+- collab
+- reactive actions 
+- equips & linking NFTs 
+- loot and bundles
+- forking & remixing
+- game integrations  
+- protocol compatibility 
+- XCM token transfers 
+- performance we are doing today is based on our experiment 
+- https://docs.kodadot.xyz/reactive-nfts
+
+</div>
+	<div>
+		<img border="rounded" src="/public/metaprime.png">
+	</div>
+</div>
+
+---
+
+# Experimental landscape
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+
+- we are heads down trying new things and you can do too with us
+	- ✅ extremely fast multi-chain search (wink SubSquid)
+	- abstracting NFTs from user experience
+	- generative art minting
+	- zkPrompts marketplace
+	- on-chain art without need for off-chain code
+	- Graph NFTs 
+
+
+</div>
+	<div>
+		<img border="rounded" src="/public/metaprime.png">
+	</div>
+</div>
+
+---
+
+
+# Your contribution matters
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+ 
+we are looking forward for more collaborators on
+- music NFTs
+- GLSL/shaders
+- on-chain art grifters
+- helping to shape our API/SDK for games
+
+</div>
+	<div>
+		<img border="rounded" src="/public/metaprime.png">
+	</div>
+</div>
+
+---
+
+# SubWork -- your best web3 retreat in mountains
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+
+- physical space outside from city to laser focus on your project
+- based in Bled, Slovenia, on footstep of Julian Alps
+- rated among top10 beautiful places in the Europe
+- up & running
+- we've already had 20+ visitors over summer '22
+- opening ceremony soon
+- go to the https://subwork.xyz for more
+- https://twitter.com/subworkBled
+
+</div>
+	<div>
+		<img border="rounded" src="/public/subwork.jpeg">
+	</div>
+</div>
+
+---
+
+# Thanks for having us
+
+<h3>and thank you for your conribution</h3>
+<br>
+
+- You can find us  
+  - https://dsc.gg/kodadot
+  - https://twitter.com/kodadot
+  - https://twitter.com/vikiival
+  - https://twitter.com/yangwao
+---
+
+---
+
 ### KodaDot: past, present, future.
 - 1 year recap of KodaDot ecosystem of 80+ contributors
 
