@@ -234,13 +234,13 @@ drawings:
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
+- created code review guild to distribute and offload core team
+
 - trusted contributors 
   - could do payout for others pull-requests
   - merge things to the `main` branch
 
-- created code review guild to distribute and offload core team
-
-- setting up an experimental Q&A guild to help us go through the stuff
+- setting up an experimental Q&A guild to help us to test new features
 
 </div>
   <div>
