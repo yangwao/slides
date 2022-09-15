@@ -74,41 +74,46 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 - desired talk length 25 min
 - participants 
-	- EXO, Pendulum, SubSquid, RMRK, Koda, Bifrost, Basilisk, Astar, MoonBeans, Phala Network, 
-Dia
+	- EXO, Pendulum, SubSquid, RMRK, Koda, Bifrost, Basilisk, Astar, MoonBeans, Phala Network, Dia
+
+
+### KodaDot: past, present, future.
+- 1 year recap of KodaDot ecosystem of 80+ contributors
 
 #### Introduction 
-Viki - co-founder, technical wizard of bleeding edge implementations
+Viki - co-founder, technical wizard of bleeding edge implementations in KodaDot 
 Yangwao - co-founder, radical veteran in crypto and open source 
 
 ### Brief history
 - how we got to the ecosystem 
+	- SubKey in VueJS (PoC)
 	- first grant from web3foundation
 - reimplementation of DotApps from React into Vuejs
-- winning hackathons in Ethereum & Polkadot ecosystem in 2019 - 2020
+- winning hackathons in Ethereum & Polkadot ecosystem in 2019 - 2020 together
 
 ### First Pivot 
 - looking into NFT ecosystem for creative leverage
-- Kusama NFTs
+- Kusama NFTs (RMRK)
 - RMRKv1 first implementation
 
 ### Struggles
 - implementation of distributed & decentralized database (Textile/ThreadDB)
 - implemented SubSocial for commenting
 - wonky UI -- craiglist's pit
-- lot of features, but few worked well
-- ever breaking
+- lot of features, but few has worked well
+- ever breaking 🤷‍♂️  constat software evolution 
 
 ### Winning mentality
+- huge traction with translation contributors, approx 16 languages
 - changed Textile to SubQuery -> improved loading times a lot for users
-- huge traction with translation contributors (16 languages?)
-- quick deploy previews for anyone who has will to contribute
+- deploy previews for anyone who wanted to contribute & help
 - bounties system for code contributors
-- participating in Arweave cohort hackhathon, among finalists with PermaFrost project
+- participating in Arweave cohort hackhathon
+	- among finalists with PermaFrost project for metadata hosting
 - raised first money in company
-- cross-chain strategy 
-- deliver experimental NFT infrastructure -- metaprime.network
-- bootstrapping web3 coworking space in Slovenia's mountains -- SubWork
+- cross-chain NFT strategy -- Kodadot 
+- experimental NFT infrastructure -- Metaprime.network
+- build web3 coworking space in Slovenia's mountains -- SubWork
 
 #### Bounties program
 - issued first bounties for translations
@@ -122,7 +127,14 @@ Yangwao - co-founder, radical veteran in crypto and open source
 - setting up payout bot in repository - crappy but worked!
 - crossing 80+ contributors to KodaDot, hitting 250+ pull request per month 
 
-- creating code review guild to distribute and offload core team
+![[Pasted image 20220914113812.png]]
+
+---
+### upgrading bounty process to next level
+- trusted contributors 
+	- could do payout for others
+	- merge things to `main` branch
+- created code review guild to distribute and offload core team
 - setting up experimental Q&A guild to help us going through the stuff
 
 ---
@@ -133,20 +145,34 @@ Yangwao - co-founder, radical veteran in crypto and open source
 		- Basilisk NFT marketplace
 		- MoonRiver & MoonBeam 
 		- Astar WASM & RMRK-runtime
+		- Acala EVM+
+---
+### Friendly user interface for managing your NFTs
 - being your single asset interface for NFTs on Polkadot & Kusama
-	- abstract technology from user -- which parachain I'm at and does it matter?
+	- abstract technology from user 
+	- which parachain I'm at and does it matter?
+		- do necessary steps on behalf of user on background (token swaps, XCM transfers)
+	- simplification of token transfers
+	- safety of transfers
 - brewing protocol compatibility between various NFTs standards called Reactive NFTs 
 
 ---
 ### RNFTs - Reactive NFTs (codename)
-- performance we are doing today is based on our experiment 
+- make offers & royalties 
+- collab
+- reactive actions 
+- equips & linking NFTs 
+- loot and bundles
+- forking & remixing
 - game integrations  
 - protocol compatibility 
 - XCM token transfers 
+- performance we are doing today is based on our experiment 
+- https://docs.kodadot.xyz/reactive-nfts
 
 ---
 ### Experimental landscape
-- we are heads down trying new things
+- we are heads down trying new things and you can too with us
 	- abstracting NFTs from user experience
 	- extremly fast multi-chain search
 	- generative art minting
@@ -155,13 +181,15 @@ Yangwao - co-founder, radical veteran in crypto and open source
 	- graph NFTs 
 
 ---
-### looking forward for more collaborators on
+### Your contribution matters 
+we are looking forward for more collaborators on
 - music NFTs
 - GLSL/shaders
+- on-chain art grifters
 - helping to shape our API/SDK for games
 
 ---
-### SubWork
+### SubWork -- your best web3 retreat in mountains
 - physical space outside from city to laser focus on your project
 - based in Bled, Slovenia, on footstep of Julian Alps
 - rated among top10 beautiful places in the Europe
