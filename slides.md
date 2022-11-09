@@ -270,7 +270,7 @@ Making developers' lives easier
   
   ```
 
-
+  <img border="rounded" src="/paraspell.png">
   </div>
 </div>
 
