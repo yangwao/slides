@@ -300,25 +300,51 @@ Making developers' lives easier
   </div>
 </div>
 
-
 ---
 
-# Friendly user interface for managing your NFTs
+
+# Spin up your own DotSama project
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
-- being your single asset interface for NFTs on Polkadot & Kusama
+- KodaDot is a great example of how to build on Substrate
+
+- But to iterate fast we have sub-scaffold
+
+- Open-source, hackable frontend scaffolding
+
+- Based on Vue3, Nuxt3, NaiveUI
+
+- ParaSpell UI will built on top of it
+
+- Support for ink! coming soon
+
+</div>
+  <div>
+    <img border="rounded" src="/scaffold.gif">
+  </div>
+</div>
+
+
+---
+
+# and what's next for KodaDot?
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+- being your single asset interface for managing NFTs on Polkadot & Kusama
   - abstract technology from a user 
   - which parachain am I at, and does it matter?
     - do necessary steps on behalf of the user in the background (token swaps, XCM transfers)
   - simplification of token transfers
   - the safety of transfers
-- brewing protocol compatibility between various NFTs standards called Reactive NFTs 
+- brewing protocol compatibility between various NFTs standards
 
 </div>
   <div>
-    <img border="rounded" src="/new-landing.png">
+    <img border="rounded" src="/gallery-item.jpg">
   </div>
 </div>
 
@@ -400,13 +426,13 @@ Making developers' lives easier
 
 </div>
   <div>
-    <img border="rounded" src="/anime-music.gif">
+    <img border="rounded" src="/lucky-star-anime.gif">
   </div>
 </div>
 
 ---
 
-# SubWork -- your best web3 retreat in the mountains
+# SubWork -- your best Web3 retreat in the mountains
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
