@@ -27,21 +27,20 @@ Making developers' lives easier
 ---
 
 
-# Who am I?
+# Hey I am Viki 👋
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
 
 <div>
 
-
-<h2>vikiival</h2>
-
-- co-founder
+- co-founder of KodaDot
 
 - technical wizard
 
 - bleeding edge implementations in KodaDot 
+
+- @vikiival
 
 </div>
 
@@ -83,30 +82,6 @@ Making developers' lives easier
 
 ---
 
-# Exploring beyond nft-gallery
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-
-<div>
-
-- We were looking into the NFT ecosystem for creative leverage
-
-- Kusama native NFTs were introduced (RMRK)
-
-- First implementation of RMRK v0.0.1
-
-- Our DotApps was rebranded to KodaDot
-
-</div>
-<div>
-  <img border="rounded" src="/rmrk-reader.jpeg" height="300">
-</div>
-
-</div>
-
----
-
 # Architecture of KodaDot
 
 <div grid="~ cols-2 gap-2" m="t-2">
@@ -120,25 +95,16 @@ Making developers' lives easier
 
 - Backend - FireSquid Indexers by SubSquid, GraphQL API
 
-- Misc - packages
+- Packages
+  - Minting
+  - API
+  - SubSquid utils
+  - Conditional rendering
 
 </div>
 <div>
-  <img border="rounded" src="/rmrk-profile.jpeg">
+  <img border="rounded" src="/architecture.png">
 </div>
-</div>
-
----
-
-# What are packages?
-
-<div grid="~ cols-2 gap-2" m="t-2">
-  <div>
-    <img border="rounded" src="/rmrk-create.png">
-  </div>
-  <div>
-    <img border="rounded" src="/rmrk-detail.png">
-  </div>
 </div>
 
 ---
@@ -185,13 +151,15 @@ Making developers' lives easier
 
 - Let's meet Uniquery
 
-- query builder on top of subsquid
+- Query builder on top of subsquid
 
-- two implementations - Builder - REST
+- two implementations
+  - Builder
+  - REST
 
-- Why is it cool?
+- Best thing? - no middleware server needed
 
-- Best? - no server needed
+- 15+ calls supported so far
 
 </div>
   <div>
