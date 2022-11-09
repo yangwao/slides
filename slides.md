@@ -20,39 +20,33 @@ drawings:
   persist: false
 ---
 
-# KodaDot: past, present, future.
+# The unified NFT developer experience
 
-1+ year recap of KodaDot ecosystem of 80+ contributors
+Making developers' lives easier
 
 ---
 
 
-# Who are we?
+# Who am I?
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
 
 <div>
 
-<img border="rounded" style="border-radius: 50%;" width="300" src="/vikiival.jpeg">
-<br>
 
 <h2>vikiival</h2>
 
 - co-founder
+
 - technical wizard
+
 - bleeding edge implementations in KodaDot 
 
 </div>
 
 <div>
-<img border="rounded" style="border-radius: 50%;" width="300" src="yangwao.png">
-
-<h2>yangwao</h2>
-
-- co-founder
-- a radical veteran in crypto
-- building public goods and open source
+<img border="rounded" style="border-radius: 50%;" width="300" src="/vikiival.jpeg">
   
 </div>
 
@@ -63,32 +57,33 @@ drawings:
 
 ---
 
-# How we got to the ecosystem (2019)?
+# What is KodaDot?
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
 
 <div>
 
-- SubKey in VueJS (Proof-of-concept)
+- Open-source NFT markeplace in DOTSama ecosystem
 
-- First grant from Web3Foundation
+- Multichain powered - Kusama, Basilisk, Moonbeam, Moonriver
 
-- Reimplementation of DotApps from React into VueJS
+- Technology agnostic - RMRK strings, runtime pallets,EVM, ink!
 
-- Winning hackathons in Ethereum & Polkadot ecosystem in 2019 - 2020 together
+- Bounty based - bringing dev talent to the ecosystem
+
+- 330 + forks, 220+ starts, 80+ contributors
 
 </div>
 <div>
-
-  <img border="rounded" src="/grant.png" height="300">
+  <img border="rounded" src="/new-landing.png">
 </div>
 
 </div>
 
 ---
 
-# RMRK and first pivot (Nov 2020)
+# Exploring beyond nft-gallery
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
@@ -112,22 +107,20 @@ drawings:
 
 ---
 
-# Did we have any struggles? (hint: yes)
+# Architecture of KodaDot
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
 
 <div>
 
-- Implementation of distributed & decentralized database (Textile/ThreadDB)
+- Frontend - Nuxt3, Vue composition API & Brick
 
-- Added SubSocial for commenting
+- Services - Rust-based workers - pinning, images
 
-- Wonky UI -- craigslist's pit
+- Backend - FireSquid Indexers by SubSquid, GraphQL API
 
-- a lot of features, but few have worked well
-
-- ever breaking 🤷‍♂️  constant software evolution 
+- Misc - packages
 
 </div>
 <div>
@@ -137,7 +130,7 @@ drawings:
 
 ---
 
-# Craiglist's pit
+# What are packages?
 
 <div grid="~ cols-2 gap-2" m="t-2">
   <div>
@@ -150,73 +143,101 @@ drawings:
 
 ---
 
-# How to win some first contributors?
+# Hello, minimark!
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
-- tremendous traction with translation contributors, approx 16 languages
+- Minimalistic implementation or RMRK protocol
 
-- changed Textile to SubQuery -> improved loading times a lot for users
+- Do not rely on single implementation
 
-- deploy previews for anyone who wants to contribute & help
+- Covered by unit tests
 
-- issued first bounties for translations
+- DX oriented
 
-- first bounties for external contributors
+- How to upgrage to v2
 
-- first $50k paid out for merged pull requests to contributors
+- Batteries included - constructing metadata, resources
 
 </div>
   <div>
-    <img border="rounded" src="/translation.png" height="200">
+    
+  ```ts
+  // Use RMRK1
+  import { createCollection } from '@kodadot1/minimark/v1'
+
+  // Use RMRK2
+  import { createCollection } from '@kodadot1/minimark/v2'
+  
+  ```
+
+
   </div>
 </div>
 
 ---
 
-# Setting up the winning mentality (Q3 2021)
+# Finally we have an API
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
-- participating in the Arweave cohort hackathon
-  - among finalists with the PermaFrost project for metadata hosting
+- Let's meet Uniquery
 
-- raised the first money in the company
+- query builder on top of subsquid
 
-- cross-chain NFT strategy -- Kodadot 
+- two implementations - Builder - REST
 
-- experimental NFT infrastructure -- Metaprime.network
+- Why is it cool?
+
+- Best? - no server needed
 
 </div>
   <div>
-    <img border="rounded" src="/metaprime.png">
+    <img border="rounded" src="/anime-music.gif">
   </div>
 </div>
 
 ---
 
-# Speeding up the bounty process
+# Why is Uniquery cool?
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
+<h2>before</h2>
 
-- standardizing program for paying out bounties to developers
-
-- setting up a payout bot in the repository - crappy, but it worked!
-
-- crossing 80+ contributors to KodaDot's repositories
-
-- hitting 250+ pull requests per month 
-
-- over 300+ stars and 200+ forks of the repository
-
+```graphql
+  query nftListByCollectionId {
+    nft: nftEntities(where: {
+      collection: {id_eq: "2305670031"}}
+  ) {
+      id
+      metadata
+      currentOwner
+      issuer
+    }
+  }
+```
 
 </div>
   <div>
-    <img border="rounded" src="/new-issues.png">
-    <img border="rounded" src="/open-issues.png">
+  <h2>after</h2>
+
+  ```ts
+  import { getClient, ask } from '@kodadot1/uniquery'
+
+  // using builder
+  const client = getClient()
+  const id = '2305670031'
+  const query = client.nftListByCollectionId(id)
+
+  // using REST
+  const path = `/nftListByCollectionId/${id}`
+  const result = await ask(path)
+
+  ```
+
   </div>
 </div>
 
@@ -229,26 +250,64 @@ drawings:
 ---
 
 
-# Upgrading bounty process to next level
+# Saving lines of code for XCMP
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
-- created code review guild to distribute and offload core team
+- Have you ever played with XCMP?
 
-- trusted contributors 
-  - could do payout for others pull-requests
-  - merge things to the `main` branch
+- It's breaking tech, but it's not easy
 
-- setting up an experimental Q&A guild to help us to test new features
+- Luckily there is ParaSpell
+
+- SDK for crosschain transfers
+
+- Modular and easy to use
+
+- Saving hundreds lines of codes
+
+- Oriented on developers
 
 </div>
   <div>
-    <img border="rounded" src="/pay-other.jpg" height="300">
+    <img border="rounded" src="/xcmp.jpeg" height="300">
   </div>
 </div>
 
 ---
+
+# Magic of ParaSpell
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+  <div>
+  <h2>before</h2>
+    <img border="rounded" src="/xcmp.jpeg">
+  </div>
+
+</div>
+  <div>
+  <h2>after</h2>
+    
+  ```ts
+  import { xTokens as paraspell } from '@paraspell/sdk'
+
+  const paraId = 1000
+  const amount = 1e12
+  const address = 'Fksmad33PFxhrQXNYPPJozgWrv82zuFLvXK7Rh8m1xQhe98'
+  const call = paraspell
+    .transferRelayToPara(api, paraId, amount, address)
+  
+  ```
+
+
+  </div>
+</div>
+
+---
+
 
 # Cross-chain strategy of KodaDot
 
@@ -272,6 +331,7 @@ drawings:
     <img border="rounded" src="/cross-chain.png">
   </div>
 </div>
+
 
 ---
 
@@ -394,7 +454,7 @@ drawings:
 
 - we've already had 20+ visitors over the summer of '22
 
-- opening ceremony soon
+- opening ceremony mid of December
 
 - go to https://subwork.xyz for more
 
