@@ -4,9 +4,10 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export --dark"
+    "export": "slidev export"
   },
   "dependencies": {
+    "@kodadot1/uniquery": "^0.1.0-rc.0",
     "@slidev/cli": "^0.36.4",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"

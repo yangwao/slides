@@ -20,39 +20,32 @@ drawings:
   persist: false
 ---
 
-# KodaDot: past, present, future.
+# The unified NFT developer experience
 
-1+ year recap of KodaDot ecosystem of 80+ contributors
+Making developers' lives easier
 
 ---
 
 
-# Who are we?
+# Hey, I am Viki 👋
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
 
 <div>
 
-<img border="rounded" style="border-radius: 50%;" width="300" src="/vikiival.jpeg">
-<br>
+- co-founder of KodaDot
 
-<h2>vikiival</h2>
-
-- co-founder
 - technical wizard
+
 - bleeding edge implementations in KodaDot 
+
+- @vikiival
 
 </div>
 
 <div>
-<img border="rounded" style="border-radius: 50%;" width="300" src="yangwao.png">
-
-<h2>yangwao</h2>
-
-- co-founder
-- a radical veteran in crypto
-- building public goods and open source
+<img border="rounded" style="border-radius: 50%;" width="300" src="/vikiival.jpeg">
   
 </div>
 
@@ -63,160 +56,176 @@ drawings:
 
 ---
 
-# How we got to the ecosystem (2019)?
+# What is KodaDot?
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
 
 <div>
 
-- SubKey in VueJS (Proof-of-concept)
+- Open-source NFT marketplace in the Dotsama ecosystem
 
-- First grant from Web3Foundation
+- Multichain powered - Kusama, Basilisk, Moonbeam, Moonriver
 
-- Reimplementation of DotApps from React into VueJS
+- Technology agnostic - RMRK strings, runtime pallets, EVM, ink!
 
-- Winning hackathons in Ethereum & Polkadot ecosystem in 2019 - 2020 together
+- Bounty based - bringing dev talent to the ecosystem
+
+- 330 + forks, 220+ stars, 80+ contributors
 
 </div>
 <div>
-
-  <img border="rounded" src="/grant.png" height="300">
+  <img border="rounded" src="/new-landing.png">
 </div>
 
 </div>
 
 ---
 
-# RMRK and first pivot (Nov 2020)
+# Architecture of KodaDot
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
 
 <div>
 
-- We were looking into the NFT ecosystem for creative leverage
+- Frontend - Nuxt3, Vue composition API & Brick
 
-- Kusama native NFTs were introduced (RMRK)
+- Services - Rust-based workers - pinning, images
 
-- First implementation of RMRK v0.0.1
+- Backend - FireSquid Indexers by SubSquid, GraphQL API
 
-- Our DotApps was rebranded to KodaDot
-
-</div>
-<div>
-  <img border="rounded" src="/rmrk-reader.jpeg" height="300">
-</div>
-
-</div>
-
----
-
-# Did we have any struggles? (hint: yes)
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-
-<div>
-
-- Implementation of distributed & decentralized database (Textile/ThreadDB)
-
-- Added SubSocial for commenting
-
-- Wonky UI -- craigslist's pit
-
-- a lot of features, but few have worked well
-
-- ever breaking 🤷‍♂️  constant software evolution 
+- Packages
+  - Minting
+  - API
+  - SubSquid utils
+  - Conditional rendering
 
 </div>
 <div>
-  <img border="rounded" src="/rmrk-profile.jpeg">
+  <img border="rounded" src="/architecture.png">
 </div>
 </div>
 
 ---
 
-# Craiglist's pit
-
-<div grid="~ cols-2 gap-2" m="t-2">
-  <div>
-    <img border="rounded" src="/rmrk-create.png">
-  </div>
-  <div>
-    <img border="rounded" src="/rmrk-detail.png">
-  </div>
-</div>
-
----
-
-# How to win some first contributors?
+# Hello, minimark!
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
-- tremendous traction with translation contributors, approx 16 languages
+- Minimalistic implementation or RMRK protocol
 
-- changed Textile to SubQuery -> improved loading times a lot for users
+- Do not rely on a single implementation
 
-- deploy previews for anyone who wants to contribute & help
+- Covered by unit tests
 
-- issued first bounties for translations
+- DX oriented
 
-- first bounties for external contributors
+- How to upgrade to v2
 
-- first $50k paid out for merged pull requests to contributors
+- Batteries included - constructing metadata, resources
 
 </div>
   <div>
-    <img border="rounded" src="/translation.png" height="200">
+    
+  ```ts
+  // Use RMRK1
+  import { createCollection } from '@kodadot1/minimark/v1'
+
+  const caller = 'Fksmad33PFxhrQXNYPPJozgWrv82zuFLvXK7Rh8m1xQhe98'
+  const symbol = 'SNEK' 
+  const name = 'Basilisk Snek'
+  const metadata = 'bafkreiazeqysfmeuzqcnjp6rijxfu5h7sj3t4h2rxehi7rlyegzfy7lxeq'
+  const max = 9999
+
+  const collection = 
+    createCollection(caller, symbol, name, metadata, max)
+  
+  ```
+  <br/>
+  <br/>
+
+  ```ts
+  // Use RMRK2
+  import { createCollection } from '@kodadot1/minimark/v2'
+
+  const collectionAsV2 =
+    createCollection(caller, symbol, name, metadata, max)
+  
+  ```
+
+
   </div>
 </div>
 
 ---
 
-# Setting up the winning mentality (Q3 2021)
+# Finally, we have an API 🎉
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
-- participating in the Arweave cohort hackathon
-  - among finalists with the PermaFrost project for metadata hosting
+- Let's meet Uniquery
 
-- raised the first money in the company
+- Query builder on top of subsquid
 
-- cross-chain NFT strategy -- Kodadot 
+- two implementations
+  - Builder
+  - REST
 
-- experimental NFT infrastructure -- Metaprime.network
+- Best thing? - no middleware server is needed
+
+- 15+ calls supported so far
 
 </div>
   <div>
-    <img border="rounded" src="/metaprime.png">
+  <!-- <Suspense>
+    <TokenDetail id="1825819407-1" />
+  </Suspense> -->
+    <img border="rounded" width="300" src="/token-detail.png">
   </div>
 </div>
 
 ---
 
-# Speeding up the bounty process
+# Why is Uniquery cool?
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
+<h2>before</h2>
 
-- standardizing program for paying out bounties to developers
-
-- setting up a payout bot in the repository - crappy, but it worked!
-
-- crossing 80+ contributors to KodaDot's repositories
-
-- hitting 250+ pull requests per month 
-
-- over 300+ stars and 200+ forks of the repository
-
+```graphql
+  query nftListByCollectionId {
+    nft: nftEntities(where: {
+      collection: {id_eq: "2305670031"}}
+  ) {
+      id
+      metadata
+      currentOwner
+      issuer
+    }
+  }
+```
 
 </div>
   <div>
-    <img border="rounded" src="/new-issues.png">
-    <img border="rounded" src="/open-issues.png">
+  <h2>after</h2>
+
+  ```ts
+  import { getClient, ask } from '@kodadot1/uniquery'
+
+  // using builder
+  const client = getClient()
+  const id = '2305670031'
+  const query = client.nftListByCollectionId(id)
+
+  // using REST
+  const path = `/nftListByCollectionId/${id}`
+  const result = await ask(path)
+
+  ```
+
   </div>
 </div>
 
@@ -225,28 +234,6 @@ drawings:
 - open source NFT frontend, right after DotApps
 - substrate repository on Polkadot right after Acala, Astar & Moonbeam 
 -->
-
----
-
-
-# Upgrading bounty process to next level
-
-<div grid="~ cols-2 gap-2" m="t-2">
-<div>
-
-- created code review guild to distribute and offload core team
-
-- trusted contributors 
-  - could do payout for others pull-requests
-  - merge things to the `main` branch
-
-- setting up an experimental Q&A guild to help us to test new features
-
-</div>
-  <div>
-    <img border="rounded" src="/pay-other.jpg" height="300">
-  </div>
-</div>
 
 ---
 
@@ -269,56 +256,115 @@ drawings:
 
 </div>
   <div>
-    <img border="rounded" src="/cross-chain.png">
+    <img border="rounded" src="/crosschain.png">
   </div>
 </div>
 
 ---
 
-# Friendly user interface for managing your NFTs
+
+# Saving lines of code for XCMP
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
-- being your single asset interface for NFTs on Polkadot & Kusama
+- Have you ever played with XCMP?
+
+- It's breaking tech, but it's not easy
+
+- Luckily, there is ParaSpell
+
+- SDK for crosschain transfers
+
+- Modular and easy to use
+
+- Saving hundreds of lines of codes
+
+- Oriented on developers
+
+</div>
+  <div>
+    <img border="rounded" src="/xcmp.jpeg" height="300">
+  </div>
+</div>
+
+---
+
+# Magic of ParaSpell
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+  <div>
+  <h2>before</h2>
+    <img border="rounded" src="/xcmp.jpeg">
+  </div>
+
+</div>
+  <div>
+  <h2>after</h2>
+    
+  ```ts
+  import { xTokens as paraspell } from '@paraspell/sdk'
+
+  const paraId = 1000
+  const amount = 1e12
+  const address = 'Fksmad33PFxhrQXNYPPJozgWrv82zuFLvXK7Rh8m1xQhe98'
+  const call = paraspell
+    .transferRelayToPara(api, paraId, amount, address)
+  
+  ```
+
+  <img border="rounded" src="/paraspell.png">
+  </div>
+</div>
+
+---
+
+
+
+# Spin up your own DotSama project
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+- KodaDot is an excellent example of how to build on Substrate
+
+- To iterate fast, we have sub-scaffold
+
+- Open-source, hackable frontend scaffolding
+
+- Based on Vue3, Nuxt3, NaiveUI
+
+- ParaSpell UI will be built on top of it
+
+- Ink! support coming soon
+
+</div>
+  <div>
+    <img border="rounded" src="/scaffold.gif">
+  </div>
+</div>
+
+
+---
+
+# and what's next for KodaDot?
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+- being your single asset interface for managing NFTs on Polkadot & Kusama
   - abstract technology from a user 
   - which parachain am I at, and does it matter?
     - do necessary steps on behalf of the user in the background (token swaps, XCM transfers)
   - simplification of token transfers
   - the safety of transfers
-- brewing protocol compatibility between various NFTs standards called Reactive NFTs 
+- brewing protocol compatibility between various NFTs standards
 
 </div>
   <div>
-    <img border="rounded" src="/new-landing.png">
-  </div>
-</div>
-
----
-
-# rNFTs - Reactive NFTs (codename)
-
-<div grid="~ cols-2 gap-2" m="t-2">
-<div>
-
-- extension of existing NFT standards
-
-- based on the transactions made on the blockchain
-
-- we can trigger additional functionality
-
-- what could be a trigger?
-	- equips & linking NFTs 
-	- XCM token transfers 
-	- add collabolator to the project
-
-- performance we are doing today is based on our experiment
-
-- https://docs.kodadot.xyz/reactive-nfts
-
-</div>
-  <div>
-    <img border="rounded" width="500" src="/reactive-spiral.gif">
+    <img border="rounded" src="/gallery-item.jpg">
   </div>
 </div>
 
@@ -347,7 +393,7 @@ drawings:
 
 </div>
   <div>
-    <img border="rounded" src="/search.png">
+    <img border="rounded" src="/search-2.png">
   </div>
 </div>
 
@@ -360,7 +406,7 @@ drawings:
 <div>
 
  
-<h3>We are looking forward for more collaborators on</h3>
+<h3>We are looking forward to more collaborators on</h3>
 
 - music NFTs
 
@@ -372,13 +418,13 @@ drawings:
 
 </div>
   <div>
-    <img border="rounded" src="/anime-music.gif">
+    <img border="rounded" src="/lucky-star-anime.gif">
   </div>
 </div>
 
 ---
 
-# SubWork -- your best web3 retreat in the mountains
+# SubWork -- your best Web3 retreat in the mountains
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
@@ -394,7 +440,7 @@ drawings:
 
 - we've already had 20+ visitors over the summer of '22
 
-- opening ceremony soon
+- opening ceremony mid of December
 
 - go to https://subwork.xyz for more
 
@@ -413,9 +459,23 @@ drawings:
 <h3>and thank you for your conribution</h3>
 <br>
 
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
 - You can find us  
   - https://dsc.gg/kodadot
   - https://twitter.com/kodadot
   - https://twitter.com/vikiival
   - https://twitter.com/yangwao
+  - https://twitter.com/helloitsdamsky
+  - https://twitter.com/De_luneClaire
+  - https://twitter.com/Just_Luuuu
+
+</div>
+  <div>
+    <img border="rounded" width="300" src="/dot-brno.jpeg">
+  </div>
+</div>
+
+
 ---
