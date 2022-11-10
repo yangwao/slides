@@ -63,11 +63,11 @@ Making developers' lives easier
 
 <div>
 
-- Open-source NFT markeplace in Dotsama ecosystem
+- Open-source NFT marketplace in the Dotsama ecosystem
 
 - Multichain powered - Kusama, Basilisk, Moonbeam, Moonriver
 
-- Technology agnostic - RMRK strings, runtime pallets,EVM, ink!
+- Technology agnostic - RMRK strings, runtime pallets, EVM, ink!
 
 - Bounty based - bringing dev talent to the ecosystem
 
@@ -116,13 +116,13 @@ Making developers' lives easier
 
 - Minimalistic implementation or RMRK protocol
 
-- Do not rely on single implementation
+- Do not rely on a single implementation
 
 - Covered by unit tests
 
 - DX oriented
 
-- How to upgrage to v2
+- How to upgrade to v2
 
 - Batteries included - constructing metadata, resources
 
@@ -161,7 +161,7 @@ Making developers' lives easier
 
 ---
 
-# Finally we have an API
+# Finally, we have an API 🎉
 
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
@@ -174,7 +174,7 @@ Making developers' lives easier
   - Builder
   - REST
 
-- Best thing? - no middleware server needed
+- Best thing? - no middleware server is needed
 
 - 15+ calls supported so far
 
@@ -272,13 +272,13 @@ Making developers' lives easier
 
 - It's breaking tech, but it's not easy
 
-- Luckily there is ParaSpell
+- Luckily, there is ParaSpell
 
 - SDK for crosschain transfers
 
 - Modular and easy to use
 
-- Saving hundreds lines of codes
+- Saving hundreds of lines of codes
 
 - Oriented on developers
 
@@ -328,17 +328,17 @@ Making developers' lives easier
 <div grid="~ cols-2 gap-2" m="t-2">
 <div>
 
-- KodaDot is a great example of how to build on Substrate
+- KodaDot is an excellent example of how to build on Substrate
 
-- To iterate fast we have sub-scaffold
+- To iterate fast, we have sub-scaffold
 
 - Open-source, hackable frontend scaffolding
 
 - Based on Vue3, Nuxt3, NaiveUI
 
-- ParaSpell UI will built on top of it
+- ParaSpell UI will be built on top of it
 
-- Support for ink! coming soon
+- Ink! support coming soon
 
 </div>
   <div>
@@ -406,7 +406,7 @@ Making developers' lives easier
 <div>
 
  
-<h3>We are looking forward for more collaborators on</h3>
+<h3>We are looking forward to more collaborators on</h3>
 
 - music NFTs
 
