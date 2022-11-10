@@ -163,7 +163,9 @@ Making developers' lives easier
 
 </div>
   <div>
-    <TokenDetail />
+  <Suspense>
+    <TokenDetail id="1825819407-1" />
+  </Suspense>
     <!-- <img border="rounded" src="/anime-music.gif"> -->
   </div>
 </div>
