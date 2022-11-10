@@ -133,8 +133,25 @@ Making developers' lives easier
   // Use RMRK1
   import { createCollection } from '@kodadot1/minimark/v1'
 
+  const caller = 'Fksmad33PFxhrQXNYPPJozgWrv82zuFLvXK7Rh8m1xQhe98'
+  const symbol = 'SNEK' 
+  const name = 'Basilisk Snek'
+  const metadata = 'bafkreiazeqysfmeuzqcnjp6rijxfu5h7sj3t4h2rxehi7rlyegzfy7lxeq'
+  const max = 9999
+
+  const collection = 
+    createCollection(caller, symbol, name, metadata, max)
+  
+  ```
+  <br/>
+  <br/>
+
+  ```ts
   // Use RMRK2
   import { createCollection } from '@kodadot1/minimark/v2'
+
+  const collectionAsV2 =
+    createCollection(caller, symbol, name, metadata, max)
   
   ```
 
