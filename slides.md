@@ -163,7 +163,8 @@ Making developers' lives easier
 
 </div>
   <div>
-    <img border="rounded" src="/anime-music.gif">
+    <TokenDetail />
+    <!-- <img border="rounded" src="/anime-music.gif"> -->
   </div>
 </div>
 
