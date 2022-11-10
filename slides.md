@@ -376,7 +376,7 @@ Making developers' lives easier
 
 </div>
   <div>
-    <img border="rounded" src="/search.png">
+    <img border="rounded" src="/search-2.png">
   </div>
 </div>
 
@@ -447,4 +447,7 @@ Making developers' lives easier
   - https://twitter.com/kodadot
   - https://twitter.com/vikiival
   - https://twitter.com/yangwao
+  - https://twitter.com/helloitsdamsky
+  - https://twitter.com/De_luneClaire
+  - https://twitter.com/Just_Luuuu
 ---
