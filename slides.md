@@ -63,7 +63,7 @@ Making developers' lives easier
 
 <div>
 
-- Open-source NFT markeplace in DOTSama ecosystem
+- Open-source NFT markeplace in Dotsama ecosystem
 
 - Multichain powered - Kusama, Basilisk, Moonbeam, Moonriver
 
@@ -71,7 +71,7 @@ Making developers' lives easier
 
 - Bounty based - bringing dev talent to the ecosystem
 
-- 330 + forks, 220+ starts, 80+ contributors
+- 330 + forks, 220+ stars, 80+ contributors
 
 </div>
 <div>
@@ -217,6 +217,31 @@ Making developers' lives easier
 
 ---
 
+# Cross-chain strategy of KodaDot
+
+<div grid="~ cols-2 gap-2" m="t-2">
+<div>
+
+- multi chain compatibility 
+
+- RMRKv1 & RMRKv2
+
+- Basilisk NFT marketplace
+
+- MoonRiver & MoonBeam 
+
+- Astar WASM & RMRK-runtime
+
+- Acala EVM+
+
+</div>
+  <div>
+    <img border="rounded" src="/cross-chain.png">
+  </div>
+</div>
+
+---
+
 
 # Saving lines of code for XCMP
 
@@ -277,31 +302,6 @@ Making developers' lives easier
 ---
 
 
-# Cross-chain strategy of KodaDot
-
-<div grid="~ cols-2 gap-2" m="t-2">
-<div>
-
-- multi chain compatibility 
-
-- RMRKv1 & RMRKv2
-
-- Basilisk NFT marketplace
-
-- MoonRiver & MoonBeam 
-
-- Astar WASM & RMRK-runtime
-
-- Acala EVM+
-
-</div>
-  <div>
-    <img border="rounded" src="/cross-chain.png">
-  </div>
-</div>
-
----
-
 
 # Spin up your own DotSama project
 
@@ -310,7 +310,7 @@ Making developers' lives easier
 
 - KodaDot is a great example of how to build on Substrate
 
-- But to iterate fast we have sub-scaffold
+- To iterate fast we have sub-scaffold
 
 - Open-source, hackable frontend scaffolding
 
@@ -345,34 +345,6 @@ Making developers' lives easier
 </div>
   <div>
     <img border="rounded" src="/gallery-item.jpg">
-  </div>
-</div>
-
----
-
-# rNFTs - Reactive NFTs (codename)
-
-<div grid="~ cols-2 gap-2" m="t-2">
-<div>
-
-- extension of existing NFT standards
-
-- based on the transactions made on the blockchain
-
-- we can trigger additional functionality
-
-- what could be a trigger?
-	- equips & linking NFTs 
-	- XCM token transfers 
-	- add collabolator to the project
-
-- performance we are doing today is based on our experiment
-
-- https://docs.kodadot.xyz/reactive-nfts
-
-</div>
-  <div>
-    <img border="rounded" width="500" src="/reactive-spiral.gif">
   </div>
 </div>
 
